@@ -4,8 +4,9 @@ import plotly.express as px
 import pandas as pd
 import numpy as np
 
-
-path=r"C:\Users\piyus\Desktop\3 months Data Science Internship\Project 02 European Bank\JL\anaconda_projects\db\Banking DataSet\European_Bank.csv"
+# Replace whatever you have with this:
+import os
+path = os.path.join(os.path.dirname(__file__), '..', 'Banking DataSet', 'your_file.csv')
 df=pd.read_csv(path)
 print("Loaded Dataset sucessfully!")
 
