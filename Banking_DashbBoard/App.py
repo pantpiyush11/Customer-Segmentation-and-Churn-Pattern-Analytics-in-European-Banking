@@ -6,7 +6,7 @@ import numpy as np
 
 # Replace whatever you have with this:
 import os
-path = os.path.join(os.path.dirname(__file__), '..', 'Banking DataSet', 'your_file.csv')
+path = os.path.join(os.path.dirname(__file__), '..', 'Banking DataSet', 'European_Bank.csv')
 df=pd.read_csv(path)
 print("Loaded Dataset sucessfully!")
 
